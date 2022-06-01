@@ -6,7 +6,7 @@ export default function LeftNavi({ page, setPage }) {
    const onClick = (e) => {
       setPage(parseInt(e.target.id));
    };
-   const title = ["HOME", "ABOUT ME", "RESUME", "PORTFOLIO", "CONTACT"];
+   const title = ["HOME", "PROFILE", "RESUME", "PORTFOLIO", "CONTACT"];
    return (
       <div className={styles.leftcontainer}>
          <div className={styles.left_photowrapper} />

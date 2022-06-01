@@ -16,7 +16,6 @@
 .MainTitle {
    margin: 0;
    width: 100%;
-   height: fit-content;
    text-align: center;
    font-size: 80px;
    transition: 0.3s ease all;

@@ -7,7 +7,7 @@ export default function MainTitle({ page }) {
          <div className={styles.MainTitlewrapper}>
             <p className={styles.MainTitle}>
                {page === 2
-                  ? "ABOUT ME"
+                  ? "PROFILE"
                   : page === 3
                   ? "RESUME"
                   : page === 4

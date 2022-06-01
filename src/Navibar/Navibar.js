@@ -12,7 +12,14 @@ export default function Navibar({ page, setPage }) {
    const ICON_HEIGHT = 25;
 
    const onClick = (e) => {
-      if (e.target.id) setPage(parseInt(e.target.id));
+      if (e.target.id) {
+         setPage(parseInt(e.target.id));
+         if (e.target.id === "1") window.scrollTo(0, 50);
+         else if (e.target.id === "2") window.scrollTo(0, 350);
+         else if (e.target.id === "3") window.scrollTo(0, 1050);
+         else if (e.target.id === "4") window.scrollTo(0, 1750);
+         else if (e.target.id === "5") window.scrollTo(0, 2450);
+      }
    };
    return (
       <div className={styles.NavibarContainer}>
