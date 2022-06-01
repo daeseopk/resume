@@ -1,0 +1,24 @@
+.BodyContainer {
+   position: fixed;
+   display: flex;
+   align-items: center;
+   margin: 0 auto;
+   width: 1440px;
+   height: 860px;
+   transition: 0.6s all ease;
+   z-index: 1;
+}
+.Body_bodycontainer {
+   display: flex;
+   margin: 0 auto;
+   width: 80%;
+   height: 80%;
+   background-color: white;
+   box-shadow: 4px 4px 4px 4px rgba(16, 16, 16, 0.4);
+   border-radius: 2px;
+}
+.Body_bodywrapper {
+   background-color: RGB(221, 221, 221);
+   width: 80%;
+   height: 100%;
+}

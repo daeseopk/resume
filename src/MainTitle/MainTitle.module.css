@@ -1,0 +1,23 @@
+.MainTitlecontainer {
+   display: flex;
+   position: relative;
+   width: 100%;
+   height: 170px;
+   justify-content: center;
+}
+.MainTitlewrapper {
+   margin-top: 40px;
+   display: flex;
+   width: 70%;
+   height: 65%;
+   border: 1px solid black;
+   align-items: center;
+}
+.MainTitle {
+   margin: 0;
+   width: 100%;
+   height: fit-content;
+   text-align: center;
+   font-size: 80px;
+   transition: 0.3s ease all;
+}
